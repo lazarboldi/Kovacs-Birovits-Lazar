@@ -1,0 +1,14 @@
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\bin\Debug\net8.0\Labiko.exe
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\bin\Debug\net8.0\Labiko.deps.json
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\bin\Debug\net8.0\Labiko.runtimeconfig.json
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\bin\Debug\net8.0\Labiko.dll
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\bin\Debug\net8.0\Labiko.pdb
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.GeneratedMSBuildEditorConfig.editorconfig
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.AssemblyInfoInputs.cache
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.AssemblyInfo.cs
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.csproj.CoreCompileInputs.cache
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.dll
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\refint\Labiko.dll
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.pdb
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\Labiko.genruntimeconfig.cache
+E:\!SULI\!11\IKT\LaBiKo\Labiko\Labiko\obj\Debug\net8.0\ref\Labiko.dll

@@ -1,0 +1,42 @@
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\bin\Debug\net7.0\LaBiKo.exe
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\bin\Debug\net7.0\LaBiKo.deps.json
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\bin\Debug\net7.0\LaBiKo.runtimeconfig.json
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\bin\Debug\net7.0\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\bin\Debug\net7.0\LaBiKo.pdb
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfoInputs.cache
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfo.cs
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.csproj.CoreCompileInputs.cache
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\refint\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.pdb
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\LaBiKo.genruntimeconfig.cache
+C:\Users\boldi\OneDrive\Asztali gép\LaBiKo\LaBiKo\obj\Debug\net7.0\ref\LaBiKo.dll
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.exe
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.deps.json
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.runtimeconfig.json
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.dll
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.pdb
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.GeneratedMSBuildEditorConfig.editorconfig
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfoInputs.cache
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfo.cs
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.csproj.CoreCompileInputs.cache
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.dll
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\refint\LaBiKo.dll
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.pdb
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.genruntimeconfig.cache
+E:\!SULI\!11\IKT\Kovacs-Birovits-Lazar-main\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\ref\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.exe
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.deps.json
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.runtimeconfig.json
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.pdb
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfoInputs.cache
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfo.cs
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.csproj.CoreCompileInputs.cache
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\refint\LaBiKo.dll
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.pdb
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.genruntimeconfig.cache
+C:\Users\boldi\OneDrive\Asztali gép\Kovacs-Birovits-Lazar-main\Labiko\LaBiKo\obj\Debug\net7.0\ref\LaBiKo.dll
