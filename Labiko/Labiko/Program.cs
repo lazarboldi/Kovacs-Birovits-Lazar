@@ -143,16 +143,16 @@ class Program
     {
         // Játékos mozgatása csak üres területekre vagy tárgyakra Lázár feladat
         if (palya[jatekosX + dx, jatekosY + dy] != 'E' && palya[jatekosX + dx, jatekosY + dy] != 'X' && palya[jatekosX + dx, jatekosY + dy] != 'A')
-        {
-            palya[jatekosX, jatekosY] = '.';
-            jatekosX += dx;
-            jatekosY += dy;
-            palya[jatekosX, jatekosY] = 'P';
-        }
-        else
-        {
-            Console.Clear();
-            Main();
-        }
+    {
+        palya[jatekosX, jatekosY] = '.';
+        jatekosX += dx;
+        jatekosY += dy;
+        palya[jatekosX, jatekosY] = 'P';
+    }
+    else if (palya[jatekosX + dx, jatekosY + dy] != 'E')
+    {
+        Console.Clear();
+        Main();
+    }
     }
 }
