@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\birov\\.nuget\\packages\\": {}
+    "C:\\Users\\boldi\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\!SULI\\!11\\IKT\\Kovacs-Birovits-Lazar-main\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
+      "projectUniqueName": "C:\\Users\\boldi\\OneDrive\\Asztali gép\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
       "projectName": "LaBiKo",
-      "projectPath": "E:\\!SULI\\!11\\IKT\\Kovacs-Birovits-Lazar-main\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
-      "packagesPath": "C:\\Users\\birov\\.nuget\\packages\\",
-      "outputPath": "E:\\!SULI\\!11\\IKT\\Kovacs-Birovits-Lazar-main\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\obj\\",
+      "projectPath": "C:\\Users\\boldi\\OneDrive\\Asztali gép\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
+      "packagesPath": "C:\\Users\\boldi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\boldi\\OneDrive\\Asztali gép\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual Studio\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\birov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\boldi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +45,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -61,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

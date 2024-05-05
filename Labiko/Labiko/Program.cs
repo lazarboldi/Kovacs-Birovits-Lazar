@@ -51,6 +51,7 @@ class Program
         Random rand = new Random();
         int targyakSzama = 8;
         int elolenyekSzama = 5;
+        int ajtokSzama = 1;
 
         for (int i = 0; i < targyakSzama; i++)
         {
@@ -74,6 +75,18 @@ class Program
             } while (palya[x, y] != '.');
 
             palya[x, y] = 'E';
+        }
+
+        for (int i = 0; i < ajtokSzama; i++)
+        {
+            int x, y;
+            do
+            {
+                x = rand.Next(palyaMeret - 10, palyaMeret - 9);
+                y = rand.Next(palyaMeret - 2, palyaMeret - 1);
+            } while (palya[x, y] != '.');
+
+            palya[x, y] = 'A';
         }
     }
 
@@ -125,15 +138,21 @@ class Program
         }
     }
 
+
     static void Mozgas(int dx, int dy)
     {
         // Játékos mozgatása csak üres területekre vagy tárgyakra Lázár feladat
-        if (palya[jatekosX + dx, jatekosY + dy] != 'E' && palya[jatekosX + dx, jatekosY + dy] != 'X')
+        if (palya[jatekosX + dx, jatekosY + dy] != 'E' && palya[jatekosX + dx, jatekosY + dy] != 'X' && palya[jatekosX + dx, jatekosY + dy] != 'A')
         {
             palya[jatekosX, jatekosY] = '.';
             jatekosX += dx;
             jatekosY += dy;
             palya[jatekosX, jatekosY] = 'P';
+        }
+        else
+        {
+            Console.Clear();
+            Main();
         }
     }
 }
