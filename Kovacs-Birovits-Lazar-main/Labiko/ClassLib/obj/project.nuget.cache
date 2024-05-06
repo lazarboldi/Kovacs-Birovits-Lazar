@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RUSJq9eXxmSdTPT39OKUmVq5tjfE3tVU4edEKDoaH4k1xlzwBzfA2sX3EftukUe8aLE1b2AfTaJMx+awE3Bjyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Levente\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Levente\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Levente\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
