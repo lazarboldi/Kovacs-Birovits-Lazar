@@ -18,14 +18,14 @@ namespace LandingPageMenuDemo
         {
             Title = "Escape from the club - A játék!";
             MainFuttatasa();
-            WriteLine("Nyomj bármilyen gombot a kilépéshez...");
+            WriteLine("\nNyomj bármilyen gombot a kilépéshez...");
             ReadKey(true);
         }
         public void MainFuttatasa()
         {
             Ascii ascii = new Ascii();
             string prompt = ascii.jatekcim;
-            string[] opciok = { "Játék", "Játékról", "Rankod", "Kihívások", "kilépés" };
+            string[] opciok = { "Játék", "Játékról", "Rankod", "Kihívások", "Tesztelés", "kilépés" };
             Menu menu = new Menu(prompt, opciok);
             int Megjelolt = menu.Futas();
 
@@ -44,6 +44,9 @@ namespace LandingPageMenuDemo
                     Kihivasokkiiratasa();
                     break;
                 case 4:
+                    Teszteleskiiratasa();
+                    break;
+                case 5:
                     KilepesJatekbol();
                     break;
             }
@@ -221,6 +224,85 @@ namespace LandingPageMenuDemo
             //WriteLine("Remélem hogy tetszett a játékunk és köszönjük, hogy kipróbáltad!");
 
             //KilepesJatekbol();
+        }
+
+        private void Teszteleskiiratasa()
+        {
+            string prompt = "Melyik animációt szeretnéd látni?\n";
+            string[] opciok = { "Pisztoly", "Shotgun", "AK-47", "Kötszer", "Koktél", "Joint" };
+            Menu menu = new Menu(prompt, opciok);
+            int Megjelolt = menu.Futas();
+
+            switch (Megjelolt)
+            {
+                case 0:
+                    Pisztolykiiratasa();
+                    break;
+                case 1:
+                    Shotgunkiiratasa();
+                    break;
+                case 2:
+                    Akkiiratasa();
+                    break;
+                case 3:
+                    Kotszerkiiratasa();
+                    break;
+                case 4:
+                    Koktelkiiratasa();
+                    break;
+                case 5:
+                    Jointkiiratasa();
+                    break;
+            }
+        }
+
+
+        private void Pisztolykiiratasa()
+        {
+            Clear();
+            WriteLine("Pisztoly");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Shotgunkiiratasa()
+        {
+            Clear();
+            WriteLine("Shotgun");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Akkiiratasa()
+        {
+            Clear();
+            WriteLine("Ak-47");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Kotszerkiiratasa()
+        {
+            Clear();
+            WriteLine("Kötszer");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Koktelkiiratasa()
+        {
+            Clear();
+            WriteLine("Koktél");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Jointkiiratasa()
+        {
+            Clear();
+            WriteLine("Joint");
+            ReadKey(true);
+            MainFuttatasa();
         }
     }
 }
