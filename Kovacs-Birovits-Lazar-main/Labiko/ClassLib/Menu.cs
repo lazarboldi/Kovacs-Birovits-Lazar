@@ -20,7 +20,7 @@ namespace LandingPageMenuDemo
             Megjelolt = 0;
         }
 
-        private void OpciokMegjelenitese()
+        public void OpciokMegjelenitese()
         {
             WriteLine(Prompt);
             for (int i = 0; i < Opciok.Length; i++)
