@@ -11,13 +11,33 @@ namespace ClassLib
 {
     public class Jatek
     {
+        int[,] szobak =
+        {
+            { },
+            { },
+            { },
+            { }
+        };
+
+        int szob_id = 1;
+
+
+
+
         public char[,] palya;
         static int palyaMeret = 20; // Növeltük a pálya méretét
         public int jatekosX, jatekosY;
 
         public void Foresz()
         {
-            Inicializalas();    // Birovits feladat
+            // elagazas
+
+
+            Palya harcter = new(szobak[0, 0], szobak[0, 1]);
+
+            harcter.Inicializalas();
+
+           
             KirajzolPalya();    // Birovits feladat
 
             while (true)
@@ -26,61 +46,61 @@ namespace ClassLib
                 KirajzolPalya();    // Birovits feladat
             }
         }
-        public void Inicializalas()
-        {
-            palya = new char[palyaMeret, palyaMeret];
-            jatekosX = palyaMeret / 2;
-            jatekosY = palyaMeret / 2;
+        //public void Inicializalas()
+        //{
+        //    palya = new char[palyaMeret, palyaMeret];
+        //    jatekosX = palyaMeret / 2;
+        //    jatekosY = palyaMeret / 2;
 
-            // Pálya feltöltése falakkal és üres területekkel // Lázár feladat
-            for (int i = 0; i < palyaMeret; i++)
-            {
-                for (int j = 0; j < palyaMeret; j++)
-                {
-                    // Falak a pálya szélén
-                    if (i == 0 || j == 0 || i == palyaMeret - 1 || j == palyaMeret - 1)
-                    {
-                        palya[i, j] = 'X';
-                    }
-                    else
-                    {
-                        palya[i, j] = '.';
-                    }
-                }
-            }
+        //    // Pálya feltöltése falakkal és üres területekkel // Lázár feladat
+        //    for (int i = 0; i < palyaMeret; i++)
+        //    {
+        //        for (int j = 0; j < palyaMeret; j++)
+        //        {
+        //            // Falak a pálya szélén
+        //            if (i == 0 || j == 0 || i == palyaMeret - 1 || j == palyaMeret - 1)
+        //            {
+        //                palya[i, j] = 'X';
+        //            }
+        //            else
+        //            {
+        //                palya[i, j] = '.';
+        //            }
+        //        }
+        //    }
 
-            // Játékos elhelyezése a pálya közepén
-            palya[jatekosX, jatekosY] = 'P';
+        //    // Játékos elhelyezése a pálya közepén
+        //    palya[jatekosX, jatekosY] = 'P';
 
-            // Tárgyak és élőlények elhelyezése
-            Random rand = new Random();
-            int targyakSzama = 8;
-            int elolenyekSzama = 5;
+        //    // Tárgyak és élőlények elhelyezése
+        //    Random rand = new Random();
+        //    int targyakSzama = 8;
+        //    int elolenyekSzama = 5;
             
-            for (int i = 0; i < targyakSzama; i++)
-            {
-                int x, y;
-                do
-                {
-                    x = rand.Next(1, palyaMeret - 1);
-                    y = rand.Next(1, palyaMeret - 1);
-                } while (palya[x, y] != '.');
+        //    for (int i = 0; i < targyakSzama; i++)
+        //    {
+        //        int x, y;
+        //        do
+        //        {
+        //            x = rand.Next(1, palyaMeret - 1);
+        //            y = rand.Next(1, palyaMeret - 1);
+        //        } while (palya[x, y] != '.');
 
-                palya[x, y] = 'T';
-            }
+        //        palya[x, y] = 'T';
+        //    }
 
-            for (int i = 0; i < elolenyekSzama; i++)
-            {
-                int x, y;
-                do
-                {
-                    x = rand.Next(1, palyaMeret - 1);
-                    y = rand.Next(1, palyaMeret - 1);
-                } while (palya[x, y] != '.');
+        //    for (int i = 0; i < elolenyekSzama; i++)
+        //    {
+        //        int x, y;
+        //        do
+        //        {
+        //            x = rand.Next(1, palyaMeret - 1);
+        //            y = rand.Next(1, palyaMeret - 1);
+        //        } while (palya[x, y] != '.');
 
-                palya[x, y] = 'E';
-            }
-        }
+        //        palya[x, y] = 'E';
+        //    }
+        //}
 
         public void KirajzolPalya()
         {

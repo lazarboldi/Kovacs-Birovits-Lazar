@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj": {}
+    "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj": {
+    "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
+        "projectUniqueName": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
         "projectName": "ClassLib",
-        "projectPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
-        "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\obj\\",
+        "projectPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
+        "packagesPath": "C:\\Users\\Móric2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Móric2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,40 +50,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj": {
+    "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
+        "projectUniqueName": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
         "projectName": "LaBiKo",
-        "projectPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
-        "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\obj\\",
+        "projectPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\LaBiKo.csproj",
+        "packagesPath": "C:\\Users\\Móric2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\LaBiKo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Móric2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj": {
-                "projectPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj"
+              "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj": {
+                "projectPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj"
               }
             }
           }
@@ -112,11 +93,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -133,30 +109,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
