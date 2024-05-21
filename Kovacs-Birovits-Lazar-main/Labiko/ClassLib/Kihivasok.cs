@@ -16,6 +16,6 @@ namespace BadgeSystem
                 kihivasok.Add(new Kihivas(item));
             }
         }
-        public int Megszamlalas() => kihivasok.Count(x => x.Teljesites == "teljesitett");
+        public int Megszamlalas() => kihivasok.Count(x => x.Teljesites == "1");
     }
 }
