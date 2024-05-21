@@ -262,6 +262,7 @@ namespace LandingPageMenuDemo
             }
         }
 
+        Ascii ascii = new Ascii();
 
         private void Pisztolykiiratasa()
         {
@@ -306,7 +307,8 @@ namespace LandingPageMenuDemo
         private void Kotszerkiiratasa()
         {
             Clear();
-            WriteLine("Kötszer");
+            string kotszer = ascii.kotszer;
+            WriteLine(kotszer);
             ReadKey(true);
             MainFuttatasa();
         }
@@ -314,7 +316,8 @@ namespace LandingPageMenuDemo
         private void Koktelkiiratasa()
         {
             Clear();
-            WriteLine("Koktél");
+            string koktel = ascii.koktel;
+            WriteLine(koktel);
             ReadKey(true);
             MainFuttatasa();
         }
@@ -322,7 +325,8 @@ namespace LandingPageMenuDemo
         private void Jointkiiratasa()
         {
             Clear();
-            WriteLine("Joint");
+            string joint = ascii.joint;
+            WriteLine(joint);
             ReadKey(true);
             MainFuttatasa();
         }
