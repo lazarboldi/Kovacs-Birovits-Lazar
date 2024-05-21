@@ -229,7 +229,7 @@ namespace LandingPageMenuDemo
         private void Teszteleskiiratasa()
         {
             string prompt = "Melyik animációt szeretnéd látni?\n";
-            string[] opciok = { "Pisztoly", "Shotgun", "AK-47", "Kötszer", "Koktél", "Joint" };
+            string[] opciok = { "Pisztoly", "AK-47", "Katona", "Terrorista", "Rohamosztagos", "Kötszer", "Koktél", "Joint" };
             Menu menu = new Menu(prompt, opciok);
             int Megjelolt = menu.Futas();
 
@@ -239,18 +239,24 @@ namespace LandingPageMenuDemo
                     Pisztolykiiratasa();
                     break;
                 case 1:
-                    Shotgunkiiratasa();
-                    break;
-                case 2:
                     Akkiiratasa();
                     break;
+                case 2:
+                    Katonakiiratasa();
+                    break;
                 case 3:
-                    Kotszerkiiratasa();
+                    Terroristakiiratasa();
                     break;
                 case 4:
-                    Koktelkiiratasa();
+                    Rohamosztagoskiiratasa();
                     break;
                 case 5:
+                    Kotszerkiiratasa();
+                    break;
+                case 6:
+                    Koktelkiiratasa();
+                    break;
+                case 7:
                     Jointkiiratasa();
                     break;
             }
@@ -265,18 +271,34 @@ namespace LandingPageMenuDemo
             MainFuttatasa();
         }
 
-        private void Shotgunkiiratasa()
-        {
-            Clear();
-            WriteLine("Shotgun");
-            ReadKey(true);
-            MainFuttatasa();
-        }
-
         private void Akkiiratasa()
         {
             Clear();
             WriteLine("Ak-47");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Katonakiiratasa()
+        {
+            Clear();
+            WriteLine("Katona");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Terroristakiiratasa()
+        {
+            Clear();
+            WriteLine("Terrorista");
+            ReadKey(true);
+            MainFuttatasa();
+        }
+
+        private void Rohamosztagoskiiratasa()
+        {
+            Clear();
+            WriteLine("Rohamosztagos");
             ReadKey(true);
             MainFuttatasa();
         }
