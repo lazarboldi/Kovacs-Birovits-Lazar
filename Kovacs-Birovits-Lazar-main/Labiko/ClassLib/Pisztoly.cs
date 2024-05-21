@@ -10,7 +10,7 @@ namespace ClassLib
     {
         public void PisztolyKiir()
         {
-            Console.WriteLine(@"Felvetted: Pisztoly
+            Console.WriteLine(@"
 
         ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓         
         ███▓▓▓▓▓███████████████████         
@@ -24,7 +24,7 @@ namespace ClassLib
 ");
             Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Pisztoly
+            Console.WriteLine(@"
 
  ▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████░░░░░▒▒▒▒   
 ███▓▓▓▓▓▓██████████████████████▓▒░▒░░░░▒▒   
@@ -38,7 +38,7 @@ namespace ClassLib
 ");
             Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Pisztoly
+            Console.WriteLine(@"
 
      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███    ▒▒▒▒▒
      ███▓▓▓▓▓█████████████████████▓░▒      ▒
@@ -52,7 +52,7 @@ namespace ClassLib
 ");
             Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Pisztoly
+            Console.WriteLine(@"
 
       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██ ▒▒▒▒▒    
       ███▓▓▓▓▓█████████████████████  ▒▒▒    
@@ -66,7 +66,7 @@ namespace ClassLib
 ");
             Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Pisztoly  
+            Console.WriteLine(@" 
 
        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓  ▒      
        ██▓▓▓▓▓▓████████████████████  ▒      

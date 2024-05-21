@@ -10,7 +10,7 @@ namespace ClassLib
     {
         public void RohamosztagosKiir()
         {
-            Console.WriteLine(@"Megtámadott: Rohamosztagos
+            Console.WriteLine(@"
 
                            █████████                             
                           ████▓▓████████                         
@@ -38,7 +38,7 @@ namespace ClassLib
 ");
             Thread.Sleep(80);
             Console.Clear();
-            Console.WriteLine(@"Megtámadott: Rohamosztagos
+            Console.WriteLine(@"
                            
                            ████████                              
                           ████▓█████████                         
@@ -66,7 +66,7 @@ namespace ClassLib
 ");
             Thread.Sleep(80);
             Console.Clear();
-            Console.WriteLine(@"Megtámadott: Rohamosztagos
+            Console.WriteLine(@"
                                 
                            █████████                             
                           ████▓▓████████                         
@@ -94,7 +94,7 @@ namespace ClassLib
 ");
             Thread.Sleep(80);
             Console.Clear();
-            Console.WriteLine(@"Megtámadott: Rohamosztagos
+            Console.WriteLine(@"
                              
                            █████████                             
                           ████▓▓████████                         

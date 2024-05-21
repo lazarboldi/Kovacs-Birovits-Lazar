@@ -10,7 +10,7 @@ namespace ClassLib
     {
         public void AkKiir()
         {
-            Console.WriteLine(@"Felvetted: Ak-47
+            Console.WriteLine(@"
 
                    ▓▓▓▓▓▓▓▒▒▒▒▒▓███████▓▓▓▓                 
           ██▓▓▓███████████████████████████▓▒▒▒▒▒▓▓          
@@ -19,9 +19,9 @@ namespace ClassLib
                    ████      █████                          
                    ███        ████                                                                                                       
 ");
-            Thread.Sleep(50);
+            Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47
+            Console.WriteLine(@"
 
                   ▓▓▓▓▓▓▓▓▒▒▓▒▓▓████▓▓▓▓▓▒░       ░░░       
          ███▓▓▓███████████████████████▓▓█▒▒▒▒▒▒▒▒░░░░░      
@@ -30,9 +30,9 @@ namespace ClassLib
                   ████      ███▓▒                           
                    ███       ████                                                                                                                                                                           
 ");
-            Thread.Sleep(50);
+            Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47                               
+            Console.WriteLine(@"                            
 
                   ▓▓▓▓▓▓▓▒▒▒▒▒▓████████▓▓▓                  
          ██▓▓▓███████████████████████████▓▒▒▒▒▒▒░░░░        
@@ -41,42 +41,9 @@ namespace ClassLib
                   ████      █████                           
                   ███        ████                                                                                                                                                                           
 ");
-            Thread.Sleep(50);
+            Thread.Sleep(100);
             Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47
-
-                    ▒▒▒▓▓▓▒▒░░▒█████████▓▓ 
-           ▒▒▒▒▒▓▓▓▓███████▓▓▓████████████▓▓▓▓▓▓▓           
-         ████████████████████████████                       
-         ███████   █████████████                            
-           ██      ███████  ██████                          
-                  ████        ████                                                                                                                                                                      
-");
-            Thread.Sleep(50);
-            Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47
-
-                   ▓▓▓▓▓▓▓▒▒▒▒▒▓███████▓▓▓▓                 
-          ██▓▓▓███████████████████████████▓▒▒▓▒▒▓▓          
-          ████████ ████████████████████                     
-           ███     █████████████                            
-                   ████      █████                          
-                   ███        ████                                                                                                                                                                              
-");
-            Thread.Sleep(50);
-            Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47
-
-                   ▓▓▓▓▓▓▓▒▒▒▒▒▓███████▓▓▓▓                 
-          ██▓▓▓███████████████████████████▓▒▒▒▒▒▒▓          
-          ████████ ████████████████████                     
-           ████▒   █████████████                            
-                   ████      █████                          
-                   ███        ████                                                                                                                                                                      
-");
-            Thread.Sleep(50);
-            Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47                            
+            Console.WriteLine(@"                           
                                                             
                    ▓▓▓▓▓▓▓▒▒▒▒▒▓███████▓▓▓▓                 
           ██▓▓▓███████████████████████████▓▒▒▒▒▒▓▓          
@@ -85,18 +52,7 @@ namespace ClassLib
                    ████      █████                          
                    ███        ████                                                                                                                                                         
 ");
-            Thread.Sleep(50);
-            Console.Clear();
-            Console.WriteLine(@"Felvetted: Ak-47
-                             
-                   ▓▓▓▓▓▓▓▒▒▒▒▒▓███████▓▓▓▓                 
-          ██▓▓▓███████████████████████████▓▒▒▒▒▒▓▓          
-          ████████ ████████████████████                     
-           ███     █████████████                            
-                   ████      █████                          
-                   ███        ████                                                                                                                                                                    
-");
-            Thread.Sleep(50);
+            Thread.Sleep(100);
             Console.Clear();
         }
     }

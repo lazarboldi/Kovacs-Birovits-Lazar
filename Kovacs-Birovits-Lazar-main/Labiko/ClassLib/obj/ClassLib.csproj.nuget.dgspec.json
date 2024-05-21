@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj": {}
+    "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj": {
+    "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
+        "projectUniqueName": "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj",
         "projectName": "ClassLib",
-        "projectPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\ClassLib.csproj",
+        "projectPath": "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj",
         "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levente\\Desktop\\Kovacs-Birovits-Lazar-main\\Labiko\\ClassLib\\obj\\",
+        "outputPath": "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",

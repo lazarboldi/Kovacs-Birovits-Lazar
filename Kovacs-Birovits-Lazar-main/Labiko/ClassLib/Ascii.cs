@@ -47,7 +47,7 @@ Köszöntelek az Escape from the club szimulátorunkban! Hogyan tovább?
                       ███                                                                                                                                                                              
             ");
         }
-        public string kotszer = @"Felvetted: Kötszer
+        public string kotszer = @"
 
                           ██████          
                         █▒░░░░░░░██       
@@ -67,7 +67,7 @@ Köszöntelek az Escape from the club szimulátorunkban! Hogyan tovább?
        ██░░░░░░░▒█                        
           ██████                                                                                                 
         ";
-        public string koktel = @"Felvetted: Koktél
+        public string koktel = @"
                                  
                                                   
               ▒▒▒▒▒▒         ▒▒▒▒▒                
@@ -87,8 +87,9 @@ Köszöntelek az Escape from the club szimulátorunkban! Hogyan tovább?
                     ▒▒▒▒▒▒▒▒▒▒                    
                      ▒▒▒▒▒▒▒▒                                                                                                                                                  
         ";
-        public string joint = @"Felvetted: Joint
-                                                           
+        public string joint = @"
+                                   
+
           ▒▒                              
            ▒▒                             
            ▒▒▒                            

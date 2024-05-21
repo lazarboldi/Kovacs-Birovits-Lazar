@@ -10,7 +10,7 @@ namespace ClassLib
     {
         public void KatonaKiir()
         {
-            Console.WriteLine(@"Megtámadott: Katona
+            Console.WriteLine(@"
 
                               ███████                            
                            ███████████                           
@@ -39,7 +39,7 @@ namespace ClassLib
 ");
             Thread.Sleep(80);
             Console.Clear();
-            Console.WriteLine(@"Megtámadott: Katona
+            Console.WriteLine(@"
 
                               ███████                            
                            ███████████                           
@@ -68,7 +68,7 @@ namespace ClassLib
 ");
             Thread.Sleep(80);
             Console.Clear();
-            Console.WriteLine(@"Megtámadott: Katona                               
+            Console.WriteLine(@"                              
                                                                  
                              ████████                            
                           ████████████                           
@@ -97,7 +97,7 @@ namespace ClassLib
 ");
             Thread.Sleep(80);
             Console.Clear();
-            Console.WriteLine(@"Megtámadott: Katona
+            Console.WriteLine(@"
 
                               ███████                            
                            ███████████                           

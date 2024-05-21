@@ -261,49 +261,125 @@ namespace LandingPageMenuDemo
                     break;
             }
         }
+        static bool stopRequested = false;
 
-        Ascii ascii = new Ascii();
-
+        Pisztoly pisztoly = new Pisztoly();
+        
         private void Pisztolykiiratasa()
         {
             Clear();
-            WriteLine("Pisztoly");
-            ReadKey(true);
+            stopRequested = false;
+
+            Thread keyListenerThread = new Thread(KeyListener);
+            keyListenerThread.Start();
+
+            ForegroundColor = ConsoleColor.DarkGray;
+
+            while (!stopRequested)
+            {
+                pisztoly.PisztolyKiir();
+            }
+
+            ResetColor();
+
+            keyListenerThread.Join();
+
             MainFuttatasa();
         }
+
+        Ak ak = new Ak();
 
         private void Akkiiratasa()
         {
             Clear();
-            WriteLine("Ak-47");
-            ReadKey(true);
+            stopRequested = false;
+
+            Thread keyListenerThread = new Thread(KeyListener);
+            keyListenerThread.Start();
+
+            ForegroundColor = ConsoleColor.DarkGray;
+
+            while (!stopRequested)
+            {
+                ak.AkKiir();
+            }
+
+            ResetColor();
+
+            keyListenerThread.Join();
+
             MainFuttatasa();
         }
+
+        Katona katona = new Katona();
 
         private void Katonakiiratasa()
         {
             Clear();
-            WriteLine("Katona");
-            ReadKey(true);
+            stopRequested = false;
+
+            Thread keyListenerThread = new Thread(KeyListener);
+            keyListenerThread.Start();
+
+            ForegroundColor = ConsoleColor.DarkGreen;
+
+            while (!stopRequested)
+            {
+                katona.KatonaKiir();
+            }
+
+            ResetColor();
+
+            keyListenerThread.Join();
+
             MainFuttatasa();
         }
+
+        Terrorista terrorista = new Terrorista();
 
         private void Terroristakiiratasa()
         {
             Clear();
-            WriteLine("Terrorista");
-            ReadKey(true);
+            stopRequested = false;
+
+            Thread keyListenerThread = new Thread(KeyListener);
+            keyListenerThread.Start();
+
+            while (!stopRequested)
+            {
+                terrorista.TerroristaKiir();
+            }
+
+            keyListenerThread.Join();
+
             MainFuttatasa();
         }
+
+        Rohamosztagos rohamosztagos = new Rohamosztagos();
 
         private void Rohamosztagoskiiratasa()
         {
             Clear();
-            WriteLine("Rohamosztagos");
-            ReadKey(true);
+            stopRequested = false;
+
+            Thread keyListenerThread = new Thread(KeyListener);
+            keyListenerThread.Start();
+
+            ForegroundColor = ConsoleColor.DarkGray;
+
+            while (!stopRequested)
+            {
+                rohamosztagos.RohamosztagosKiir();
+            }
+
+            ResetColor();
+
+            keyListenerThread.Join();
+
             MainFuttatasa();
         }
 
+        Ascii ascii = new Ascii();
         private void Kotszerkiiratasa()
         {
             Clear();
@@ -316,8 +392,10 @@ namespace LandingPageMenuDemo
         private void Koktelkiiratasa()
         {
             Clear();
+            ForegroundColor = ConsoleColor.DarkMagenta;
             string koktel = ascii.koktel;
             WriteLine(koktel);
+            ResetColor();
             ReadKey(true);
             MainFuttatasa();
         }
@@ -325,10 +403,24 @@ namespace LandingPageMenuDemo
         private void Jointkiiratasa()
         {
             Clear();
+            ForegroundColor = ConsoleColor.DarkGreen;
             string joint = ascii.joint;
             WriteLine(joint);
+            ResetColor();
             ReadKey(true);
             MainFuttatasa();
+        }
+
+        static void KeyListener()
+        {
+            while (!stopRequested)
+            {
+                if (KeyAvailable)
+                {
+                    ReadKey(true);
+                    stopRequested = true;
+                }
+            }
         }
     }
 }
