@@ -25,7 +25,7 @@ namespace LandingPageMenuDemo
         {
             Ascii ascii = new Ascii();
             string prompt = ascii.jatekcim;
-            string[] opciok = { "Játék", "Játékról", "Rankod", "Kihívások", "Tesztelés", "kilépés" };
+            string[] opciok = { "Játék", "Játékról", "Rankod", "Kihívások", "kilépés" };
             Menu menu = new Menu(prompt, opciok);
             int Megjelolt = menu.Futas();
 
@@ -44,9 +44,6 @@ namespace LandingPageMenuDemo
                     Kihivasokkiiratasa();
                     break;
                 case 4:
-                    Teszteleskiiratasa();
-                    break;
-                case 5:
                     KilepesJatekbol();
                     break;
             }
