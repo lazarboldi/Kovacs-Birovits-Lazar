@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassLib/1.0.0": {
+      "type": "project",
+      "path": "../ClassLib/ClassLib.csproj",
+      "msbuildProject": "../ClassLib/ClassLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ClassLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Móric2\\.nuget\\packages\\": {}
+    "C:\\Users\\Levente\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Labiko\\LaBiKo\\LaBiKo.csproj",
+      "projectUniqueName": "C:\\Users\\Levente\\Desktop\\Labiko\\LaBiKo\\LaBiKo.csproj",
       "projectName": "LaBiKo",
-      "projectPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Labiko\\LaBiKo\\LaBiKo.csproj",
-      "packagesPath": "C:\\Users\\Móric2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Móric2\\OneDrive\\Dokumentumok\\neumann_11b\\ikt\\Kovacs-Birovits-Lazar\\Labiko\\LaBiKo\\obj\\",
+      "projectPath": "C:\\Users\\Levente\\Desktop\\Labiko\\LaBiKo\\LaBiKo.csproj",
+      "packagesPath": "C:\\Users\\Levente\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Levente\\Desktop\\Labiko\\LaBiKo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Móric2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,13 +52,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj": {
+              "projectPath": "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -56,12 +84,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.17, 7.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.17, 7.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.17, 7.0.17]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.17, 7.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
