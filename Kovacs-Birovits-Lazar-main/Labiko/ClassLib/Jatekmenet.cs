@@ -25,7 +25,7 @@ namespace LandingPageMenuDemo
         {
             Ascii ascii = new Ascii();
             string prompt = ascii.jatekcim;
-            string[] opciok = { "Játék", "Játékról", "Rankod", "Kihívások", "kilépés" };
+            string[] opciok = { "Játék", "Játékról", "Rankod", "Kihívások", "Fiókkezelés", "kilépés" };
             Menu menu = new Menu(prompt, opciok);
             int Megjelolt = menu.Futas();
 
@@ -38,12 +38,15 @@ namespace LandingPageMenuDemo
                     JatekrolMegjelenites();
                     break;
                 case 2:
-                    Rankkiiratása();
+                    Rankkiiratasa();
                     break;
                 case 3:
                     Kihivasokkiiratasa();
                     break;
                 case 4:
+                    Fiokkezeles();
+                    break;
+                case 5:
                     KilepesJatekbol();
                     break;
             }
@@ -56,6 +59,12 @@ namespace LandingPageMenuDemo
             Environment.Exit(0);
         }
 
+        private void Fiokkezeles()
+        {
+            Mentes mentes = new Mentes();
+            mentes.Fomenu();
+        }
+
         private void JatekrolMegjelenites()
         {
             Clear();
@@ -65,10 +74,16 @@ namespace LandingPageMenuDemo
             MainFuttatasa();
         }
 
-        private void Rankkiiratása()
+        private void Rankkiiratasa()
         {
             Clear();
-            Kihivasok kihivaslista = new(File.ReadAllLines("feladatok.txt", Encoding.UTF8).Skip(1));
+            // Dinamikusan meghatározzuk a projekt gyökérkönyvtárát
+            var currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            var projectDirectory = Directory.GetParent(currentDirectory).Parent.Parent.Parent.Parent.FullName;
+            var classLibDirectory = Path.Combine(projectDirectory, "ClassLib");
+            var filePath = Path.Combine(classLibDirectory, "feladatok.txt");
+
+            Kihivasok kihivaslista = new(File.ReadAllLines(filePath, Encoding.UTF8).Skip(1));
 
             Ascii ascii = new Ascii();
 
