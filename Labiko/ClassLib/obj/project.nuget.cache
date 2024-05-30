@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EpIQZPCPjSr7AEMj8jpp8ktCtw0/hk/eD9JECa4Y1Q2suVPfhejC2m5G7KQzvmgAMFXFUwORLNTQG4o/pigbTg==",
+  "dgSpecHash": "YTn6hYEttc8JdNLFgBNfhfFtBJFEfcQG/nB+esfdE9g4NrYk7Ll9jpoqiLfAyAUqncVichHkvqOK4U8A1ZlBwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Levente\\Desktop\\Labiko\\ClassLib\\ClassLib.csproj",
+  "projectFilePath": "/Users/mrszmr/Labiko/ClassLib/ClassLib.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Levente\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Levente\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\Levente\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+    "/Users/mrszmr/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/mrszmr/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

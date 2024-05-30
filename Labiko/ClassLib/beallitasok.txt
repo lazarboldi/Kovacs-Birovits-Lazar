@@ -1,3 +1,2 @@
 Nev;Jelszo;Pisztoly;Ak;Kotszer;Koktel;Joint;Hp;LetrehozasIdeje
-teszt;teszt;0;0;0;0;0;100;2024. 05. 29. 00:06:16
-teszt2;teszt;0;0;0;0;0;100;2024. 05. 29. 00:08:35
+bence;bence;0;0;0;0;0;100;2024. 05. 30. 13:50:35

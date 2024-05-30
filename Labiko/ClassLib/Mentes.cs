@@ -80,6 +80,7 @@ public class Mentes
                     }
                     else
                     {
+                        Clear();
                         WriteLine("Legalább egy fiók létrehozása szükséges.");
                         WriteLine("Nyomj meg egy gombot a folytatáshoz.");
                         ReadKey();
