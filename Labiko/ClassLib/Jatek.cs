@@ -15,8 +15,25 @@ namespace ClassLib
         static int palyaMeret = 20; // Növeltük a pálya méretét
         public int jatekosX, jatekosY;
 
+
+        public int[,] szobak =
+        {
+           {5, 7 },
+           {5, 7 },
+
+
+           {5, 7 },
+           {5, 7 }
+        };
+
+
+
         public void Foresz()
         {
+
+
+            Palya palya = new(szobak[0,0], szobak[0, 1]);
+
             Inicializalas();    // Birovits feladat
             KirajzolPalya();    // Birovits feladat
 
