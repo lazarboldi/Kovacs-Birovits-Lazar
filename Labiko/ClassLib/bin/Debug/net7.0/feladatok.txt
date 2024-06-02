@@ -1,46 +1,46 @@
 Feladatmegnevezés;Feladat;Teljesites
-Fegyverkeresés;Az első szobában keresd meg a biztonsági őr sokkolóját az asztalon!;teljesitetlen
-Kombinációs kihívás;A második szobában készíts lockpick-et a zárt ajtó kinyitásához vagy találj alternatív utat a fegyveredhez!;teljesitetlen
-Időzített menekülés;A harmadik szobában kerüld el vagy állítsd meg a terroristákat, mielőtt továbbmész!;teljesitetlen
-Boss Fight előkészítés;Készíts golyóálló mellényt a főellenség előtt!;teljesitetlen
-Taktikai döntés;Használd a kispisztolyt vagy a molotov koktélt a főellenséggel szemben!;teljesitetlen
-Elsősegély kihívás;Találj kötszert és használd fel a sebeid kezelésére!;teljesitetlen
-Rejtett ajtó keresése;Fedezd fel a raktárat a pályán!;teljesitetlen
-Lopakodás;Kerüld el az ellenfeleket és rejtőzz el előlük!;teljesitetlen
-Vadászat az ellenségre;Keresd meg és semmisítsd meg az összes ellenséget!;teljesitetlen
-Veszélyes csapdák;Óvakodj a rejtett csapdáktól a pályán!;teljesitetlen
-Gyorsított idő;Sietve juss át a következő szintre, mielőtt lejár az idő!;teljesitetlen
-Több ellenség, kevesebb fegyver;Harcolj meg több ellenféllel, mint amennyi lőszered van!;teljesitetlen
-Vegyes taktikák;Kombináld a fegyvereket és támadási stílusokat a hatékonyabb ellenfelek legyőzéséhez!;teljesitetlen
-Éjszakai küldetés;Teljesítsd a szintet sötétben, korlátozott láthatósággal!;teljesitetlen
-Gyorsított fegyvercsere;Cserélj fegyvert gyorsan a körülötted lévő tárgyakkal!;teljesitetlen
-Tárgyak gyorsan;Gyűjts minél több tárgyat a pályán a következő szintre való felkészüléshez!;teljesitetlen
-Szoros menekülés;Menekülj az ellenfelek elől egy szűk folyosón!;teljesitetlen
-Bosszú;Számolj le azokkal az őrökkel, akik elraboltak téged!;teljesitetlen
-Titkos üzenetek;Keresd meg és olvasd el a rejtett üzeneteket a pályán!;teljesitetlen
-Éleslátás;Használd az éleslátásodat a távoli tárgyak és ellenségek megtalálásához!;teljesitetlen
-Tárgygyűjtési küldetés;Gyűjts össze bizonyos számú tárgyat a pályán!;teljesitetlen
-Időzített robbanások;Használd a Molotov koktélt időzített robbanásként!;teljesitetlen
-Folyamatos mozgás;Mozogj állandóan a pályán a támadások elkerüléséhez!;teljesitetlen
-Szűkös források;Hatékonyan használd a korlátozott lőszerkészleteket és fegyvereket!;teljesitetlen
-Láthatatlanság;Használd a környezetet az elrejtőzéshez!;teljesitetlen
-Hangjelzők;Figyeld a hangokat az ellenfelek lokalizálásához!;teljesitetlen
-Megtévesztés;Tereld el az ellenfelek figyelmét és irányítsd őket!;teljesitetlen
-Szenvedélyes szökés;Használj minden rendelkezésre álló eszközt a meneküléshez!;teljesitetlen
-Játék a türelemmel;Légy türelmes és figyelmes a pályán!;teljesitetlen
-Sötét út;Vezess át a sötétben és használd az éjszakai látást!;teljesitetlen
-Támadás és visszavonulás;Támadj az ellenfelekre, majd húzz vissza!;teljesitetlen
-Váratlan ellenségek;Számolj be váratlan ellenfelekkel a pályán!;teljesitetlen
-Gyors és hatékony;Légy gyors és hatékony a harcban!;teljesitetlen
-Eszközkihasználás;Használd ki a körülötted lévő tárgyakat!;teljesitetlen
-Álcázás és elrejtőzés;Használj álcázást és elrejtőzést!;teljesitetlen
-Stratégiai felkészülés;Készülj fel stratégiai módon a következő szintre!;teljesitetlen
-Tűzkereszt;Használd ki a tűztereket az ellenfelek támadására!;teljesitetlen
-Jutalmak keresése;Keresd meg a rejtett jutalmakat a pályán!;teljesitetlen
-Búvóhelyek;Fedezz fel rejtett búvóhelyeket a pályán!;teljesitetlen
-Fegyverforgatókönyv;Készíts elő egy taktikát a következő szintre!;teljesitetlen
-Lézerszintű pontosság;Légy pontos és célzott a lövéseiddel!;teljesitetlen
-Gyors és veszélyes;Támadj gyorsan és hatékonyan!;teljesitetlen
-Kreatív felhasználás;Használj kreatív módszereket és tárgyakat!;teljesitetlen
-Társ segítségére;Dolgozz együtt a társaidkal!;teljesitetlen
-Ellenségek szétzúzása;Használj tárgyakat az ellenségek legyőzésre!;teljesitetlen
+Fegyverkeresés;Az első szobában keresd meg a biztonsági őr sokkolóját az asztalon!;0
+Kombinációs kihívás;A második szobában készíts lockpick-et a zárt ajtó kinyitásához vagy találj alternatív utat a fegyveredhez!;0
+Időzített menekülés;A harmadik szobában kerüld el vagy állítsd meg a terroristákat, mielőtt továbbmész!;0
+Boss Fight előkészítés;Készíts golyóálló mellényt a főellenség előtt!;0
+Taktikai döntés;Használd a kispisztolyt vagy a molotov koktélt a főellenséggel szemben!;0
+Elsősegély kihívás;Találj kötszert és használd fel a sebeid kezelésére!;0
+Rejtett ajtó keresése;Fedezd fel a raktárat a pályán!;0
+Lopakodás;Kerüld el az ellenfeleket és rejtőzz el előlük!;0
+Vadászat az ellenségre;Keresd meg és semmisítsd meg az összes ellenséget!;0
+Veszélyes csapdák;Óvakodj a rejtett csapdáktól a pályán!;0
+Gyorsított idő;Sietve juss át a következő szintre, mielőtt lejár az idő!;0
+Több ellenség, kevesebb fegyver;Harcolj meg több ellenféllel, mint amennyi lőszered van!;0
+Vegyes taktikák;Kombináld a fegyvereket és támadási stílusokat a hatékonyabb ellenfelek legyőzéséhez!;0
+Éjszakai küldetés;Teljesítsd a szintet sötétben, korlátozott láthatósággal!;0
+Gyorsított fegyvercsere;Cserélj fegyvert gyorsan a körülötted lévő tárgyakkal!;0
+Tárgyak gyorsan;Gyűjts minél több tárgyat a pályán a következő szintre való felkészüléshez!;0
+Szoros menekülés;Menekülj az ellenfelek elől egy szűk folyosón!;0
+Bosszú;Számolj le azokkal az őrökkel, akik elraboltak téged!;0
+Titkos üzenetek;Keresd meg és olvasd el a rejtett üzeneteket a pályán!;0
+Éleslátás;Használd az éleslátásodat a távoli tárgyak és ellenségek megtalálásához!;0
+Tárgygyűjtési küldetés;Gyűjts össze bizonyos számú tárgyat a pályán!;0
+Időzített robbanások;Használd a Molotov koktélt időzített robbanásként!;0
+Folyamatos mozgás;Mozogj állandóan a pályán a támadások elkerüléséhez!;0
+Szűkös források;Hatékonyan használd a korlátozott lőszerkészleteket és fegyvereket!;0
+Láthatatlanság;Használd a környezetet az elrejtőzéshez!;0
+Hangjelzők;Figyeld a hangokat az ellenfelek lokalizálásához!;0
+Megtévesztés;Tereld el az ellenfelek figyelmét és irányítsd őket!;0
+Szenvedélyes szökés;Használj minden rendelkezésre álló eszközt a meneküléshez!;0
+Játék a türelemmel;Légy türelmes és figyelmes a pályán!;0
+Sötét út;Vezess át a sötétben és használd az éjszakai látást!;0
+Támadás és visszavonulás;Támadj az ellenfelekre, majd húzz vissza!;0
+Váratlan ellenségek;Számolj be váratlan ellenfelekkel a pályán!;0
+Gyors és hatékony;Légy gyors és hatékony a harcban!;0
+Eszközkihasználás;Használd ki a körülötted lévő tárgyakat!;0
+Álcázás és elrejtőzés;Használj álcázást és elrejtőzést!;0
+Stratégiai felkészülés;Készülj fel stratégiai módon a következő szintre!;0
+Tűzkereszt;Használd ki a tűztereket az ellenfelek támadására!;0
+Jutalmak keresése;Keresd meg a rejtett jutalmakat a pályán!;0
+Búvóhelyek;Fedezz fel rejtett búvóhelyeket a pályán!;0
+Fegyverforgatókönyv;Készíts elő egy taktikát a következő szintre!;0
+Lézerszintű pontosság;Légy pontos és célzott a lövéseiddel!;0
+Gyors és veszélyes;Támadj gyorsan és hatékonyan!;0
+Kreatív felhasználás;Használj kreatív módszereket és tárgyakat!;0
+Társ segítségére;Dolgozz együtt a társaidkal!;0
+Ellenségek szétzúzása;Használj tárgyakat az ellenségek legyőzésre!;0

@@ -15,13 +15,17 @@ namespace ClassLib
 
 
 
-        private int[] _szoba = new int[2];
+        private int[] _szoba = new int[3];
 
-        public Palya(int magassag, int szelesseg)
+        public char[,] Palyachar;
+
+
+        public Palya(int id, int magassag, int szelesseg)
         {
 
-            _szoba[0] = magassag;
-            _szoba[1] = szelesseg;
+            _szoba[0] = id;
+            _szoba[1] = magassag;
+            _szoba[2] = szelesseg;
 
 
 
@@ -30,11 +34,12 @@ namespace ClassLib
 
         public char[,] Inicializalas(out int jatekosX, out int jatekosY)
         {
-            char[,] palya = new char[_szoba[0], _szoba[1]];
+            Palyachar = new char[_szoba[0], _szoba[1]];
             
 
-            jatekosX = _szoba[0] / 2;
-            jatekosY = _szoba[1] / 2;
+
+            jatekosX = _szoba[1] / 2;
+            jatekosY = _szoba[2] / 2;
 
             // Pálya feltöltése falakkal és üres területekkel // Lázár feladat
             for (int i = 0; i < _szoba[0]; i++)
@@ -44,17 +49,24 @@ namespace ClassLib
                     // Falak a pálya szélén
                     if (i == 0 || j == 0 || i == _szoba[0] - 1 || j == _szoba[1] - 1)
                     {
-                        palya[i, j] = 'X';
+                        Palyachar[i, j] = 'X';
+                    }else if (true)
+                    {
+                        
                     }
+
+
+
+
                     else
                     {
-                        palya[i, j] = '.';
+                        Palyachar[i, j] = '.';
                     }
                 }
             }
 
             // Játékos elhelyezése a pálya közepén
-            palya[jatekosX, jatekosY] = 'P';
+            Palyachar[jatekosX, jatekosY] = 'P';
 
             // Tárgyak és élőlények elhelyezése
             Random rand = new Random();
@@ -68,9 +80,9 @@ namespace ClassLib
                 {
                     x = rand.Next(1, _szoba[0] - 1);
                     y = rand.Next(1, _szoba[1] - 1);
-                } while (palya[x, y] != '.');
+                } while (Palyachar[x, y] != '.');
 
-                palya[x, y] = 'T';
+                Palyachar[x, y] = 'T';
             }
 
             for (int i = 0; i < elolenyekSzama; i++)
@@ -80,12 +92,12 @@ namespace ClassLib
                 {
                     x = rand.Next(1, _szoba[0] - 1);
                     y = rand.Next(1, _szoba[1] - 1);
-                } while (palya[x, y] != '.');
+                } while (Palyachar[x, y] != '.');
 
-                palya[x, y] = 'E';
+                Palyachar[x, y] = 'E';
             }
 
-            return palya;
+            return Palyachar;
         }
 
 
