@@ -34,7 +34,7 @@ namespace ClassLib
 
         public char[,] Inicializalas(out int jatekosX, out int jatekosY)
         {
-            Palyachar = new char[_szoba[0], _szoba[1]];
+            Palyachar = new char[_szoba[1], _szoba[2]];
             
 
 
@@ -50,18 +50,14 @@ namespace ClassLib
                     if (i == 0 || j == 0 || i == _szoba[0] - 1 || j == _szoba[1] - 1)
                     {
                         Palyachar[i, j] = 'X';
-                    }else if (true)
-                    {
-                        
-                    }
-
-
-
-
-                    else
+                    }else
                     {
                         Palyachar[i, j] = '.';
                     }
+
+
+
+
                 }
             }
 
@@ -78,8 +74,8 @@ namespace ClassLib
                 int x, y;
                 do
                 {
-                    x = rand.Next(1, _szoba[0] - 1);
-                    y = rand.Next(1, _szoba[1] - 1);
+                    x = rand.Next(1, _szoba[1] - 1);
+                    y = rand.Next(1, _szoba[2] - 1);
                 } while (Palyachar[x, y] != '.');
 
                 Palyachar[x, y] = 'T';
@@ -90,8 +86,8 @@ namespace ClassLib
                 int x, y;
                 do
                 {
-                    x = rand.Next(1, _szoba[0] - 1);
-                    y = rand.Next(1, _szoba[1] - 1);
+                    x = rand.Next(1, _szoba[1] - 1);
+                    y = rand.Next(1, _szoba[2] - 1);
                 } while (Palyachar[x, y] != '.');
 
                 Palyachar[x, y] = 'E';

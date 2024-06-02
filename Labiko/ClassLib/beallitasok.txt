@@ -1,2 +1,3 @@
 Nev;Jelszo;Pisztoly;Ak;Kotszer;Koktel;Joint;Hp;LetrehozasIdeje
 bence;bence;0;0;0;0;0;100;2024. 05. 30. 13:50:35
+Moric;1234;0;0;0;0;0;100;2024. 06. 02. 17:04:23
