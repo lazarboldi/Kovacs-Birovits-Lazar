@@ -1,0 +1,46 @@
+Feladatmegnevezés;Feladat;Teljesites
+Lövöldözős Kaland;Vegyél fel egy pisztolyt a földről.;0
+Kaliberes Kaland;Vegyél fel egy AK-t a földről.;0
+Füstös Felfedezés;Vegyél fel egy jointot a földről.;0
+Koktélos Kaland;Vegyél fel egy koktélt a földről.;0
+Sebzett Szaladgálás;Vegyél fel egy bandaget a földről.;0
+Pusztító Párbaj;Győzz le 1 ellenséget.;0
+Öldöklő Összecsapás;Győzz le 5 ellenséget.;0
+Vérző Vihar;Győzz le 25 ellenséget.;0
+Halálos Harctér;Győzz le 50 ellenséget.;0
+Véres Vadászat;Győzz le 100 ellenséget.;0
+Véres Vérontás;Győzz le 250 ellenséget.;0
+Véres Vihar;Győzz le 500 ellenséget.;0
+Kudarcos Küzdelem;Veszíts el egy csatát.;0
+Erős Élet;Legyél minimum 50 életerőn.;0
+Támadó Tűz;Legyél minimum 30 életerőn.;0
+Veszélyes Vívás;Legyél minimum 20 életerőn.;0
+Végső Védőállás;Legyél minimum 10 életerőn.;0
+Sebzett Siker;Nyerj egy csatát életerő vesztése nélkül.;0
+Ezüst Expedíció;Érd el az EZÜST rankot.;0
+Aranycsata;Érd el az ARANY rankot.;0
+Zöld Zsoldos;Érd el az EMERALD rankot.;0
+Mesteri Mozgás;Érd el a MESTER rankot.;0
+Hősies Harctér;Érd el a HŐS rankot.;0
+Kalandos Követés;Mozogj 50 területet.;0
+Halálos Hajtás;Mozogj 100 területet.;0
+Kritikus Kitérés;Mozogj 500 területet.;0
+Veszélyes Vándorlás;Mozogj 1000 területet.;0
+Sebzett Siker;Győzz le 10 ellenséget életerő vesztése nélkül.;0
+Kihívó Közöny;Győzz le 25 ellenséget életerő vesztése nélkül.;0
+Végső Vívás;Győzz le 50 ellenséget életerő vesztése nélkül.;0
+Kalandos Kukkolás;Játsz a játékkal 5 percet.;0
+Harcos Hozzáállás;Játsz a játékkal 10 percet.;0
+Véres Várakozás;Játsz a játékkal 15 percet.;0
+Időzített Invázió;Játsz a játékkal 30 percet.;0
+Végső Vívás;Játsz a játékkal 1 órát.;0
+Kimerítő Küzdelem;Játsz a játékkal 3 órát.;0
+Sebzett Segítség;Gyógyíts magadon 10 életerőt.;0
+Veszélyes Visszatérés;Gyógyíts magadon 30 életerőt.;0
+Kihívó Kúra;Gyógyíts magadon 50 életerőt.;0
+Életmentő Energiatermelés;Gyógyíts magadon 100 életerőt.;0
+Végső Vigasz;Gyógyítsd magadat vissza 100 életerőre.;0
+Ellenséges Egyeduralom;Nyerj egymás után 2 csatát vesztés nélkül.;0
+Öldöklő Összetűzés;Nyerj egymás után 5 csatát vesztés nélkül.;0
+Hősies Harctér;Nyerj egymás után 10 csatát vesztés nélkül.;0
+Véres Vízió;Nyerj egymás után 15 csatát vesztés nélkül.;0
