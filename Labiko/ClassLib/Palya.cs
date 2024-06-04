@@ -60,6 +60,25 @@ namespace ClassLib
                 }
             }
 
+
+            // ----------------------
+            for (int i = 0; i < _szoba[0]; i++)
+            {
+                for (int j = 0; j < _szoba[1]; j++)
+                {
+
+                    Console.Write(Palyachar[i, j]);
+
+
+
+                }
+
+                Console.WriteLine();
+
+
+            }
+            //----------------------------
+
             // Játékos elhelyezése a pálya közepén
             Palyachar[jatekosX, jatekosY] = 'P';
 

@@ -46,3 +46,15 @@ C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Lab
 C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Labiko\ClassLib\bin\Debug\net7.0\ClassLib.dll
 C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Labiko\ClassLib\bin\Debug\net7.0\ClassLib.pdb
 C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ref\ClassLib.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\bin\Debug\net7.0\feladatok.txt
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\bin\Debug\net7.0\ClassLib.deps.json
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\bin\Debug\net7.0\ClassLib.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\bin\Debug\net7.0\ClassLib.pdb
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfoInputs.cache
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfo.cs
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ClassLib.csproj.CoreCompileInputs.cache
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ClassLib.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\refint\ClassLib.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ClassLib.pdb
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\ClassLib\obj\Debug\net7.0\ref\ClassLib.dll
