@@ -12,8 +12,32 @@ namespace ClassLib
     public class Jatek
     {
         public char[,] palya;
-        static int palyaMeret = 20; // Növeltük a pálya méretét
+        static int palyaMeret = 20;
         public int jatekosX, jatekosY;
+
+
+        public int ID;
+        public int Magassag;
+        public int Szelesseg;
+
+        public int JatekosX;
+        public int JatekosY;
+
+
+        public char[,] palya2; 
+
+        private Palya PalyaObj;
+
+        private int[,] SzobaKord =
+        {
+            {1, 20, 15 },
+            {2, 30, 20 },
+            {3, 15, 30},
+            {4, 20, 25 }
+        };
+
+
+
 
         public int Pisztoly;
         public int Ak;
@@ -48,7 +72,20 @@ namespace ClassLib
             Melleny = int.Parse(Mentes.valasztottFiok.Split(";")[11]);
             Sisak = int.Parse(Mentes.valasztottFiok.Split(";")[12]);
 
-            Inicializalas();
+
+            PalyaObj = new(SzobaKord[0, 0], SzobaKord[0, 1], SzobaKord[0, 2]);
+            palya2 = PalyaObj.Inicializalas(out int jx, out int jy) ;
+
+            JatekosX = jx;
+            JatekosY = jy;
+
+            ID = SzobaKord[0, 0];
+            Magassag = SzobaKord[0, 1];
+            Szelesseg = SzobaKord[0, 2];
+
+
+
+            //Inicializalas();
             KirajzolPalya();
 
             while (true)
@@ -58,66 +95,66 @@ namespace ClassLib
             }
         }
 
-        public void Inicializalas()
-        {
-            // Pálya mérete és játékos kezdőpozíció beállítása
-            palyaMeret = 15; // Módosítottuk a pálya méretét
-            palya = new char[palyaMeret, palyaMeret];
-            jatekosX = palyaMeret / 2;
-            jatekosY = palyaMeret / 2;
+        //public void Inicializalas()
+        //{
+        //    // Pálya mérete és játékos kezdőpozíció beállítása
+        //    palyaMeret = 15; // Módosítottuk a pálya méretét
+        //    palya = new char[palyaMeret, palyaMeret];
+        //    jatekosX = palyaMeret / 2;
+        //    jatekosY = palyaMeret / 2;
 
-            // Pálya feltöltése falakkal és üres területekkel
-            for (int i = 0; i < palyaMeret; i++)
-            {
-                for (int j = 0; j < palyaMeret; j++)
-                {
-                    // A széleken falak
-                    if (i == 0 || j == 0 || i == palyaMeret - 1 || j == palyaMeret - 1)
-                    {
-                        palya[i, j] = 'X';
-                    }
-                    // Belül üres terület
-                    else
-                    {
-                        palya[i, j] = '.';
-                    }
-                }
-            }
+        //    // Pálya feltöltése falakkal és üres területekkel
+        //    for (int i = 0; i < palyaMeret; i++)
+        //    {
+        //        for (int j = 0; j < palyaMeret; j++)
+        //        {
+        //            // A széleken falak
+        //            if (i == 0 || j == 0 || i == palyaMeret - 1 || j == palyaMeret - 1)
+        //            {
+        //                palya[i, j] = 'X';
+        //            }
+        //            // Belül üres terület
+        //            else
+        //            {
+        //                palya[i, j] = '.';
+        //            }
+        //        }
+        //    }
 
-            // Játékos kezdőpozíciójának beállítása
-            palya[jatekosX, jatekosY] = 'P';
+        //    // Játékos kezdőpozíciójának beállítása
+        //    palya[jatekosX, jatekosY] = 'P';
 
-            // Tárgyak és élőlények elhelyezése
-            Random rand = new Random();
-            int targyakSzama = 8;
-            int elolenyekSzama = 5;
+        //    // Tárgyak és élőlények elhelyezése
+        //    Random rand = new Random();
+        //    int targyakSzama = 8;
+        //    int elolenyekSzama = 5;
 
-            // Elhelyezzük a tárgyakat
-            for (int i = 0; i < targyakSzama; i++)
-            {
-                int x, y;
-                do
-                {
-                    x = rand.Next(1, palyaMeret - 1);
-                    y = rand.Next(1, palyaMeret - 1);
-                } while (palya[x, y] != '.');
+        //    // Elhelyezzük a tárgyakat
+        //    for (int i = 0; i < targyakSzama; i++)
+        //    {
+        //        int x, y;
+        //        do
+        //        {
+        //            x = rand.Next(1, palyaMeret - 1);
+        //            y = rand.Next(1, palyaMeret - 1);
+        //        } while (palya[x, y] != '.');
 
-                palya[x, y] = 'T';
-            }
+        //        palya[x, y] = 'T';
+        //    }
 
-            // Elhelyezzük az élőlényeket
-            for (int i = 0; i < elolenyekSzama; i++)
-            {
-                int x, y;
-                do
-                {
-                    x = rand.Next(1, palyaMeret - 1);
-                    y = rand.Next(1, palyaMeret - 1);
-                } while (palya[x, y] != '.');
+        //    // Elhelyezzük az élőlényeket
+        //    for (int i = 0; i < elolenyekSzama; i++)
+        //    {
+        //        int x, y;
+        //        do
+        //        {
+        //            x = rand.Next(1, palyaMeret - 1);
+        //            y = rand.Next(1, palyaMeret - 1);
+        //        } while (palya[x, y] != '.');
 
-                palya[x, y] = 'E';
-            }
-        }
+        //        palya[x, y] = 'E';
+        //    }
+        //}
 
 
         public void KirajzolPalya()
@@ -129,37 +166,37 @@ namespace ClassLib
             WriteLine($"Játékos élete: {Eletero}\n");
 
             // Inicializáljuk a színek tömböt
-            szinek = new ConsoleColor[palyaMeret, palyaMeret];
+            szinek = new ConsoleColor[Magassag, Szelesseg];
 
-            for (int i = 0; i < palyaMeret; i++)
+            for (int i = 0; i < Magassag; i++)
             {
-                for (int j = 0; j < palyaMeret; j++)
+                for (int j = 0; j < Szelesseg; j++)
                 {
                     // Beállítjuk az alapértelmezett színt (kék)
                     szinek[i, j] = ConsoleColor.Blue;
 
                     // Az ellenségek pirosak lesznek
-                    if (palya[i, j] == 'E')
+                    if (palya2[i, j] == 'E')
                     {
                         szinek[i, j] = ConsoleColor.Red;
                     }
                     // A játékos zöld lesz
-                    else if (palya[i, j] == 'P')
+                    else if (palya2[i, j] == 'P')
                     {
                         szinek[i, j] = ConsoleColor.Green;
                     }
-                    else if (palya[i, j] == 'X')
+                    else if (palya2[i, j] == 'X')
                     {
                         szinek[i, j] = ConsoleColor.White;
                     }
-                    else if (palya[i, j] == '.')
+                    else if (palya2[i, j] == '.')
                     {
                         szinek[i, j] = ConsoleColor.White;
                     }
 
                     // Kiírjuk a karaktert a megfelelő színnel
                     Console.ForegroundColor = szinek[i, j];
-                    Console.Write(palya[i, j] + " ");
+                    Console.Write(palya2[i, j] + " ");
                 }
                 Console.WriteLine();
             }
@@ -172,28 +209,28 @@ namespace ClassLib
             {
                 case ConsoleKey.W:
                 case ConsoleKey.UpArrow:
-                    if (jatekosX > 1)
+                    if (JatekosX > 1)
                     {
                         Mozgas(-1, 0);
                     }
                     break;
                 case ConsoleKey.S:
                 case ConsoleKey.DownArrow:
-                    if (jatekosX < palyaMeret - 2)
+                    if (JatekosX < Magassag - 2)
                     {
                         Mozgas(1, 0);
                     }
                     break;
                 case ConsoleKey.A:
                 case ConsoleKey.LeftArrow:
-                    if (jatekosY > 1)
+                    if (JatekosY > 1)
                     {
                         Mozgas(0, -1);
                     }
                     break;
                 case ConsoleKey.D:
                 case ConsoleKey.RightArrow:
-                    if (jatekosY < palyaMeret - 2)
+                    if (JatekosY < Szelesseg - 2)
                     {
                         Mozgas(0, 1);
                     }
@@ -218,9 +255,9 @@ namespace ClassLib
             }
 
             // Ha a játékos új helye nincs ütközésben, állítsuk be 'P'-re
-            if (palya[jatekosX, jatekosY] != 'X')
+            if (palya2[jatekosX, jatekosY] != 'X')
             {
-                palya[jatekosX, jatekosY] = 'P';
+                palya2[jatekosX, jatekosY] = 'P';
             }
         }
 
@@ -330,17 +367,17 @@ namespace ClassLib
         private void Mozgas(int deltaX, int deltaY)
         {
             // Új hely kiszámítása
-            int ujX = jatekosX + deltaX;
-            int ujY = jatekosY + deltaY;
+            int ujX = JatekosX + deltaX;
+            int ujY = JatekosY + deltaY;
 
             // Ellenőrzés, hogy az új helyen van-e tárgy
-            if (palya[ujX, ujY] == 'T')
+            if (palya2[ujX, ujY] == 'T')
             {
                 TargyFelvetel(ujX, ujY);
             }
 
             // Ellenőrzés, hogy az új helyen van-e ellenség
-            if (palya[ujX, ujY] == 'E') // Ha ellenségbe ütközünk
+            if (palya2[ujX, ujY] == 'E') // Ha ellenségbe ütközünk
             {
                 fiokKezeles.CsokkentemHp(Mentes.valasztottFiokNev);
                 Eletero -= 10;
@@ -362,17 +399,17 @@ namespace ClassLib
             }
 
             // Ha az új hely nincs ütközésben, mozgatjuk a játékost
-            if (palya[ujX, ujY] != 'X')
+            if (palya2[ujX, ujY] != 'X')
             {
                 // Az aktuális hely törlése
-                palya[jatekosX, jatekosY] = '.';
+                palya2[JatekosX, JatekosY] = '.';
 
                 // Az új hely beállítása
-                jatekosX = ujX;
-                jatekosY = ujY;
+                JatekosX = ujX;
+                JatekosY = ujY;
 
                 // Az új hely beállítása
-                palya[jatekosX, jatekosY] = 'P';
+                palya2[JatekosX, JatekosY] = 'P';
             }
         }
 
