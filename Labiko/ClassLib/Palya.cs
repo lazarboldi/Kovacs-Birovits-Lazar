@@ -8,6 +8,7 @@ namespace ClassLib
 {
     internal class Palya
     {
+<<<<<<< Updated upstream
 
 
 
@@ -120,5 +121,7 @@ namespace ClassLib
 
 
 
+=======
+>>>>>>> Stashed changes
     }
 }
