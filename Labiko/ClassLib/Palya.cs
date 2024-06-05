@@ -42,9 +42,9 @@ namespace ClassLib
             jatekosY = _szoba[2] / 2;
 
             // Pálya feltöltése falakkal és üres területekkel // Lázár feladat
-            for (int i = 0; i < _szoba[0]; i++)
+            for (int i = 0; i < _szoba[1]; i++)
             {
-                for (int j = 0; j < _szoba[1]; j++)
+                for (int j = 0; j < _szoba[2]; j++)
                 {
                     // Falak a pálya szélén
                     if (i == 0 || j == 0 || i == _szoba[1] - 1 || j == _szoba[2] - 1)
@@ -64,9 +64,9 @@ namespace ClassLib
 
 
             // ----------------------
-            for (int i = 0; i < _szoba[0]; i++)
+            for (int i = 0; i < _szoba[1]; i++)
             {
-                for (int j = 0; j < _szoba[1]; j++)
+                for (int j = 0; j < _szoba[2]; j++)
                 {
 
                     Console.Write(Palyachar[i, j]);
