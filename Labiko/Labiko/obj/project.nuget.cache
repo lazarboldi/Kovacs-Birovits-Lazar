@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9sim4XmSZ3tVuTn/PJbMoTKbFT2nhDgigvQPm7YYyNX1JINkhW8+dDnKaanuLZkhy/hmQcGOeSe/bLIRKk5agA==",
+  "success": true,
+  "projectFilePath": "/Users/mrszmr/Labiko/Labiko/LaBiKo.csproj",
+  "expectedPackageFiles": [
+    "/Users/mrszmr/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/mrszmr/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/mrszmr/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.14/microsoft.netcore.app.host.osx-arm64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

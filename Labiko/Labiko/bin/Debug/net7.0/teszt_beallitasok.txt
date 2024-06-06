@@ -1,0 +1,11 @@
+Életerő: 100
+Pisztoly Lőszer: 0
+AK Lőszer: 0
+Kötözőszer: 0
+Koktél: 0
+Joint: 0
+Üveg: 0
+Fémcső: 0
+Kés: 0
+Mellény: Nem
+Sisak: Nem
