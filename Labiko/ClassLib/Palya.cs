@@ -8,7 +8,7 @@ namespace ClassLib
 {
     internal class Palya
     {
-<<<<<<< Updated upstream
+
 
 
 
@@ -50,8 +50,24 @@ namespace ClassLib
                     if (i == 0 || j == 0 || i == _szoba[1] - 1 || j == _szoba[2] - 1)
                     {
                         Palyachar[i, j] = 'X';
+                    }else if (_szoba[0] == 1 && i == 10 && j == (15 /2))
+                    {
+                        Palyachar[i, j] = 'A';
+
                     }
-                    else
+                    else if ((_szoba[0] == 2 && i == 1 && j == 10) || (_szoba[0] == 2 && i == 9 && j == 0))
+                    {
+                        Palyachar[i, j] = 'A';
+                        
+                    }
+                    else if ((_szoba[0] == 3 && i == 0 && j == 19) || (_szoba[0] == 3 && i == 10 && j == 0))
+                    {
+                        Palyachar[i, j] = 'A';
+                        
+                    }
+
+
+
                     {
                         Palyachar[i, j] = '.';
                     }
