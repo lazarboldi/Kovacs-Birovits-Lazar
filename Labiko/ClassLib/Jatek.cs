@@ -398,6 +398,37 @@ namespace ClassLib
                 return;
             }
 
+            if (palya2[ujX, ujY] == 'A' && ID == 1)
+            {
+                ID = 2;
+                Magassag = SzobaKord[1, 0];
+                Szelesseg = SzobaKord[1, 1];
+
+                PalyaObj = new(ID, Magassag, Szelesseg);
+
+                palya2 = PalyaObj.Inicializalas(out int jx, out int jy);
+                JatekosX = jx;
+                JatekosY = jy;
+                KirajzolPalya();
+
+
+            }else if (palya2[ujX, ujY] == 'A' && ID == 2)
+            {
+                ID = 3;
+                Magassag = SzobaKord[1, 0];
+                Szelesseg = SzobaKord[1, 1];
+
+                PalyaObj = new(ID, Magassag, Szelesseg);
+
+                palya2 = PalyaObj.Inicializalas(out int jx, out int jy);
+                JatekosX = jx;
+                JatekosY = jy;
+                KirajzolPalya();
+            
+            
+            }
+
+
             // Ha az új hely nincs ütközésben, mozgatjuk a játékost
             if (palya2[ujX, ujY] != 'X')
             {

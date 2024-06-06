@@ -55,3 +55,22 @@ C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Lab
 C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.pdb
 C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.genruntimeconfig.cache
 C:\Users\Móric2\OneDrive\Dokumentumok\neumann_11b\ikt\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\ref\LaBiKo.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\feladatok.txt
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.exe
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.deps.json
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.runtimeconfig.json
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\LaBiKo.pdb
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\ClassLib.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\bin\Debug\net7.0\ClassLib.pdb
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.csproj.AssemblyReference.cache
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfoInputs.cache
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.AssemblyInfo.cs
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.csproj.CoreCompileInputs.cache
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.csproj.CopyComplete
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\refint\LaBiKo.dll
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.pdb
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\LaBiKo.genruntimeconfig.cache
+D:\Documents and Settings\Dokumentumok\GitHub\Kovacs-Birovits-Lazar\Labiko\LaBiKo\obj\Debug\net7.0\ref\LaBiKo.dll

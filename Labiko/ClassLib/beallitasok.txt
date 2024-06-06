@@ -1,2 +1,3 @@
 Nev;Jelszo;Pisztoly;Ak;Kotszer;Koktel;Joint;Hp;Uveg;Femcso;Kes;Melleny;Sisak;LetrehozasIdeje
-M;1234;0;0;0;0;0;200;0;0;0;1;1;2024. 06. 06. 08:59:04
+M;1234;0;0;4;1;3;200;4;3;0;1;1;2024. 06. 06. 08:59:04
+1;1234;0;0;0;0;0;200;0;0;0;1;1;2024. 06. 06. 13:45:08
