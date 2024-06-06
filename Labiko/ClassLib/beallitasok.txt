@@ -1,0 +1,2 @@
+Nev;Jelszo;Pisztoly;Ak;Kotszer;Koktel;Joint;Hp;Uveg;Femcso;Kes;Melleny;Sisak;LetrehozasIdeje
+teszt;teszt;0;0;0;0;1;75;0;0;0;1;1;2024. 06. 06. 13:47:16
